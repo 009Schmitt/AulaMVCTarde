@@ -1,0 +1,31 @@
+﻿--create table dbo.Dados(
+--	idDados int Primary Key Identity(1,1) not null,
+--	Nome VARCHAR(50) not null,
+--	Cpf VARCHAR(11) not null,
+--	Rg VARCHAR(11) not null
+--)
+
+--create table dbo.Pessoa(
+--	idPessoa int Primary Key Identity(1,1) not null,
+--	idDados int not null,
+--	CONSTRAINT fk_Dados FOREIGN KEY (idDados) REFERENCES dbo.Dados(idDados)
+--)
+
+--create table dbo.Cliente(
+--	idCliente int PRIMARY KEY Identity(1,1) not null,
+--	Vip bit not null,
+--	idDados int not null,
+--	CONSTRAINT fk_DadosC FOREIGN KEY (idDados) REFERENCES dbo.Dados (idDados)
+--)
+
+--create table dbo.Funcionario(
+--	idFuncionario int PRIMARY KEY IDENTITY(1,1) not null,
+--	Salario Money not null,
+--	idDados int not null,
+--	CONSTRAINT fk_DadosF FOREIGN KEY (idDados) REFERENCES dbo.Dados (idDados)
+--)
+
+INSERT into dbo.Dados (Nome,Cpf,Rg) values ('Adelberto','89565515555','3233333')
+SELECT * from dbo.Dados
+INSERT into dbo.Funcionario (Salario,idDados) values (7541.62,1)
+SELECT * from dbo.Funcionario
