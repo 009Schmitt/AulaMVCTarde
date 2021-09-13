@@ -25,6 +25,11 @@ namespace AULAMVC01Tarde
                 new Exec02().Show();
                 this.Hide();
             }
+            else if (rbTabela.Checked)
+            {
+                new AulaTabela().Show();
+                this.Hide();
+            }
         }
     }
 }

@@ -27,7 +27,6 @@ namespace AULAMVC01Tarde.View
             {
                 dgTeste01.Rows.Add(item);
             }
-
         }
 
         private void AtualizaCBVaga()
@@ -94,6 +93,26 @@ namespace AULAMVC01Tarde.View
                 MessageBox.Show("Faltou informações");
             }
             AtualizaTudo();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            int temp = Convert.ToInt32(lblTeste.Text);
+            if (temp < 5)
+            {
+                temp++;
+            }
+            lblTeste.Text = temp.ToString();
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            int temp = Convert.ToInt32(lblTeste.Text);
+            if (temp > -5)
+            {
+                temp--;
+            }
+            lblTeste.Text = temp.ToString();
         }
     }
 }

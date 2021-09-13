@@ -9,3 +9,15 @@ C:\Users\victor.schmitt\source\repos\AULAMVC01Tarde\obj\Debug\AULAMVC01Tarde.csp
 C:\Users\victor.schmitt\source\repos\AULAMVC01Tarde\obj\Debug\AULAMVC01Tarde.csproj.CoreCompileInputs.cache
 C:\Users\victor.schmitt\source\repos\AULAMVC01Tarde\obj\Debug\AULAMVC01Tarde.exe
 C:\Users\victor.schmitt\source\repos\AULAMVC01Tarde\obj\Debug\AULAMVC01Tarde.pdb
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\bin\Debug\AULAMVC01Tarde.exe.config
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\bin\Debug\AULAMVC01Tarde.exe
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\bin\Debug\AULAMVC01Tarde.pdb
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\obj\Debug\AULAMVC01Tarde.csprojAssemblyReference.cache
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\obj\Debug\AULAMVC01Tarde.Properties.Resources.resources
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\obj\Debug\AULAMVC01Tarde.View.Exec02.resources
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\obj\Debug\AULAMVC01Tarde.Form1.resources
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\obj\Debug\AULAMVC01Tarde.csproj.GenerateResource.cache
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\obj\Debug\AULAMVC01Tarde.csproj.CoreCompileInputs.cache
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\obj\Debug\AULAMVC01Tarde.exe
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\obj\Debug\AULAMVC01Tarde.pdb
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCTarde\obj\Debug\AULAMVC01Tarde.View.AulaTabela.resources

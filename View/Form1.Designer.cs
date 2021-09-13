@@ -29,22 +29,22 @@ namespace AULAMVC01Tarde
         /// </summary>
         private void InitializeComponent()
         {
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rbTabela = new System.Windows.Forms.RadioButton();
             this.rbExec02 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // radioButton1
+            // rbTabela
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(12, 12);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(231, 43);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbTabela.AutoSize = true;
+            this.rbTabela.Location = new System.Drawing.Point(12, 12);
+            this.rbTabela.Name = "rbTabela";
+            this.rbTabela.Size = new System.Drawing.Size(371, 43);
+            this.rbTabela.TabIndex = 0;
+            this.rbTabela.TabStop = true;
+            this.rbTabela.Text = "AulaTabelaRelacional";
+            this.rbTabela.UseVisualStyleBackColor = true;
             // 
             // rbExec02
             // 
@@ -89,7 +89,7 @@ namespace AULAMVC01Tarde
             this.Controls.Add(this.button1);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.rbExec02);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.rbTabela);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.Name = "Form1";
@@ -102,7 +102,7 @@ namespace AULAMVC01Tarde
 
         #endregion
 
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rbTabela;
         private System.Windows.Forms.RadioButton rbExec02;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Button button1;

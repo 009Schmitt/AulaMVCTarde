@@ -53,6 +53,9 @@ namespace AULAMVC01Tarde.View
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblTeste = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnRemove = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgVagas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgTeste01)).BeginInit();
             this.SuspendLayout();
@@ -254,7 +257,7 @@ namespace AULAMVC01Tarde.View
             this.dgTeste01.Name = "dgTeste01";
             this.dgTeste01.ReadOnly = true;
             this.dgTeste01.RowTemplate.Height = 50;
-            this.dgTeste01.Size = new System.Drawing.Size(454, 537);
+            this.dgTeste01.Size = new System.Drawing.Size(454, 415);
             this.dgTeste01.TabIndex = 17;
             // 
             // dataGridViewTextBoxColumn1
@@ -277,11 +280,43 @@ namespace AULAMVC01Tarde.View
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
             this.dataGridViewTextBoxColumn3.Width = 250;
             // 
+            // lblTeste
+            // 
+            this.lblTeste.AutoSize = true;
+            this.lblTeste.Location = new System.Drawing.Point(966, 440);
+            this.lblTeste.Name = "lblTeste";
+            this.lblTeste.Size = new System.Drawing.Size(36, 39);
+            this.lblTeste.TabIndex = 18;
+            this.lblTeste.Text = "0";
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(872, 494);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(109, 49);
+            this.btnAdd.TabIndex = 19;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnRemove
+            // 
+            this.btnRemove.Location = new System.Drawing.Point(987, 494);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(109, 49);
+            this.btnRemove.TabIndex = 20;
+            this.btnRemove.Text = "Rem";
+            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
+            // 
             // Exec02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 39F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1244, 561);
+            this.Controls.Add(this.btnRemove);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.lblTeste);
             this.Controls.Add(this.dgTeste01);
             this.Controls.Add(this.btnEncerra);
             this.Controls.Add(this.btnEntrar);
@@ -339,5 +374,8 @@ namespace AULAMVC01Tarde.View
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.Label lblTeste;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnRemove;
     }
 }
