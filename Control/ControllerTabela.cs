@@ -28,7 +28,25 @@ namespace AULAMVC01Tarde.Control
             return TabelaModel.SelecionaPessoas();
         }
 
+        public static bool AdicionaFuncionario(string nome, string cpf, string rg,string salario)
+        {
+            if (!string.IsNullOrEmpty(nome) &&
+               !string.IsNullOrEmpty(cpf) &&
+               !string.IsNullOrEmpty(rg) &&
+               !string.IsNullOrEmpty(salario))
+            {
+                return TabelaModel.AdicionaFuncionario(nome, cpf, rg, salario);
+            }
+            else
+            {
+                return false;
+            }
+        }
 
+        public static List<string[]> SelecionaFucionarios()
+        {
+            return TabelaModel.SelecionaFucionarios();
+        }
 
     }
 }

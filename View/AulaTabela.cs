@@ -31,6 +31,18 @@ namespace AULAMVC01Tarde.View
                     MessageBox.Show("Deu Ruim :c");
                 }
             }
+            else if (rbFuncionario.Checked)
+            {
+                if(ControllerTabela.AdicionaFuncionario(txtNome.Text,txtCpf.Text,txtRg.Text,txtSalario.Text))
+                {
+                    MessageBox.Show("Acerto Miseravi");
+                }
+                else
+                {
+                    MessageBox.Show("O processo falhou com êxito");
+                }
+            }
+
             LimpaTudo();
         }
         private void btnConfere_Click(object sender, EventArgs e)
@@ -48,6 +60,20 @@ namespace AULAMVC01Tarde.View
                     }
                     acumuladora += "\n";
                 }   
+                MessageBox.Show(acumuladora);
+            }
+            else if (rbFuncionario.Checked)
+            {
+                List<string[]> lista = ControllerTabela.SelecionaFucionarios();
+                string acumuladora = "";
+                foreach (var item in lista)
+                {
+                    foreach (var item1 in item)
+                    {
+                        acumuladora += item1 + "\t";
+                    }
+                    acumuladora += "\n";
+                }
                 MessageBox.Show(acumuladora);
             }
 
